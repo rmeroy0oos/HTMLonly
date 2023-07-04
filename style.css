@@ -1,0 +1,280 @@
+/*
+Theme Name: Dejee Portfoloio
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: Reyjudel Eroy
+Author URI: https://wordpress.org/
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.00
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body, ul, li, h1, h2, a, p{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+/* HEADER BRAND AND NAVBAR */
+header{
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+}
+    header h1{
+        position: relative;
+        display: inline-block;
+        letter-spacing: 11px;
+        padding: 0px 574px 0px 374px;
+        font-size: 32px;
+    }
+    nav{
+        /* background-color: #9fb9e9; */
+        padding: 117px 0px 84px 0px;
+    }
+        nav ul{
+            max-width: 100%;
+            white-space: nowrap;
+            padding: 30px 30px;
+        }
+            nav li{
+                display: inline-block;
+                padding: 0px 56px 0px 0px;
+            }
+                nav li a{
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: black;
+                }
+             
+/* MAIN SECTION */
+main{
+    background-color: #f4f4f4;
+    height: 740px;
+    text-align: center;
+}
+        .main-image{
+            padding: 95px 0px 55px 389px;
+        }
+        .leftcolumn{
+            float: left;
+            width: 50%;
+        }
+        .rightcolumn{
+            float: right;
+            width: 50%;
+            
+        }
+        .rcontent{
+            padding: 240px 461px 200px 130px;
+        }
+            main h2{
+                padding-bottom: 30px;
+                color: #777777;
+                font-size: 36px;
+                line-height: 0.722;
+                font-weight: normal;
+            }
+            main span{
+                font-size: 48px;
+                line-height: 1.167;
+                color: #333333;
+            }
+            main p{
+                padding-top: 35px;
+                font-size: 16px;
+                color: #777777;
+                line-height: 1.75;
+            }
+            button{
+                margin-top: 36px;
+                background-color: #1769ff;
+                width: 216px;
+                height: 60px;
+                color: #ffffff;
+                border-radius: 100px;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 1.75;
+            }
+
+/* SERVICES */
+section{
+    position: relative;
+    height: 780px;
+    max-width: 100%;
+    text-align: center;
+}
+    .section-tag{
+        padding-top: 180px;
+        padding-bottom: 83px;
+        letter-spacing: 11px;
+        text-align: center;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+        section p{
+            padding-top: 62px;
+            text-align: center;
+            display: block;
+            border-radius: 5px;           
+            font-size: 15px;
+
+        }
+        section span{
+            font-size: 18px;
+            font-weight: bold;
+            color: #222222;
+            text-transform: uppercase;
+            line-height: 1.333;
+        }
+        .white-text{
+            padding-top: 43px;
+            color: #ffffff;
+        }
+        .flex-container{
+            display: flex;
+            justify-content: center;
+            height: 0%;
+            padding: 0 0 183px 0;
+        }
+        .servicesbox{
+            width: 367px;
+            height: 315px;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+        .bluemobile{
+            width: 367px;
+            height: 315px;
+            border-radius: 5px;
+            background-color: #1769ff;
+        }
+        .dash-pad{
+            padding: 14.5px 0px 14.5px 0px;
+        }
+
+/* PORTFOLIO SECTION */
+.portfolio-tag{
+    padding-top: 180px;
+    padding-bottom: 83px;
+    letter-spacing: 11px;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+.portfolio{
+    background-color: #f4f4f4;
+    max-width: 100%;
+    height: 1020px;
+    text-align: center;
+}
+    .flex-portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: row;
+        width: 100%;
+        }
+        .flex-portfolio img {
+            margin: 17px 17px;
+        }
+        .flex-portfolio div {
+            margin: 17px 17px;
+        }
+    .portfolio-card{
+        width: 431px;
+        height: 411px;
+        background-color: #1769ff;
+    }
+        .portfolio-card p{
+            padding-top: 159px;
+            font-size: 18px;
+        }
+        .portfolio-card span{
+            font-size: 24px;
+            padding-top: 25px;
+            line-height: 1.444;
+        }
+    .arrows img{
+        padding: 32px 32px 0 0;
+    }
+
+/* HIRE ME NOW SECTION */
+.hire {
+    text-align: left;
+    max-width: 100%;
+    height: 353px;
+}
+    .hire .leftcolumn{
+        float: left;
+        width: 80%;
+    }
+    .hire .rightcolumn{
+        float: right;
+        width: 20%;
+        
+    }
+    .hire button{
+        background-color: #ffffff;
+        border-color: #1769ff;
+        border-style: solid;
+        border-width: 2px;
+        color: #1769ff;
+        width: 178px;
+        height: 63px;
+    }
+
+/* CLIENTS FEEDBACK SECTION */
+.feedback{
+    background-color: #f4f4f4;
+    height: 880px;
+}
+
+/* CONTACT SECTION */
+.contact{
+    background-color: rgb(159, 159, 159);
+    height: 636px;
+}
+.Shape_55 {
+    background-color: rgb(159, 159, 159);
+    position: absolute;
+    left: -18px;
+    top: 4274px;
+    width: 1940px;
+    height: 636px;
+    z-index: 23;
+  }
+  
+/* FOOTER COPYRIGHT */
+footer{
+    background: #2977bb;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+} 
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+} 
+
+@media only screen and (max-width: 1200px) {
+
+}
